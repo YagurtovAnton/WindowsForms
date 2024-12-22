@@ -63,7 +63,7 @@
 			this.ChooseFont.Size = new System.Drawing.Size(80, 16);
 			this.ChooseFont.TabIndex = 2;
 			this.ChooseFont.Text = "ChooseFont";
-			this.ChooseFont.Click += new System.EventHandler(this.label1_Click);
+		
 			// 
 			// FontSize
 			// 
@@ -102,6 +102,7 @@
 			this.btnOK.TabIndex = 6;
 			this.btnOK.Text = "Ok";
 			this.btnOK.UseVisualStyleBackColor = true;
+			
 			// 
 			// ChooseFontForm
 			// 

@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Clock
 {
@@ -15,11 +18,20 @@ namespace Clock
 		public ChooseFontForm()
 		{
 			InitializeComponent();
+			LoadFonts();
 		}
 
-		private void label1_Click(object sender, EventArgs e)
+		void LoadFonts()
 		{
+			Directory.SetCurrentDirectory("..\\..");
+			Console.WriteLine(Directory.GetCurrentDirectory());
 
+			
+		
+		}
+
+		private void btnok_click(object sender, EventArgs e)
+		{
 		}
 	}
 }
