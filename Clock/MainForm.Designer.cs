@@ -172,8 +172,7 @@
 			// 
 			// cmShowConsole
 			// 
-			this.cmShowConsole.Checked = true;
-			this.cmShowConsole.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.cmShowConsole.CheckOnClick = true;
 			this.cmShowConsole.Name = "cmShowConsole";
 			this.cmShowConsole.Size = new System.Drawing.Size(210, 26);
 			this.cmShowConsole.Text = "Show Console";

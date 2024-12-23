@@ -23,7 +23,9 @@ namespace Clock
 		public MainForm()
 		{
 			InitializeComponent();
-			labelTime.BackColor=Color.AliceBlue;
+			labelTime.BackColor = Color.Black;
+			labelTime.ForeColor = Color.Red;
+
 			this.Location = new Point(Screen.PrimaryScreen.Bounds.Width - this.Width, 50);
 			SetVisibilidity(false);
 

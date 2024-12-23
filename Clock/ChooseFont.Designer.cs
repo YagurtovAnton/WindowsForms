@@ -92,6 +92,7 @@
 			this.btnCansel.TabIndex = 5;
 			this.btnCansel.Text = "Cancel";
 			this.btnCansel.UseVisualStyleBackColor = true;
+			this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
 			// 
 			// btnOK
 			// 
